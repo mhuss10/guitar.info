@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Contact & Comment Page</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <!-- Navagation Bar-->
+    <header>
+        <nav class="navbar">
+            <a href='index.html'><img id='logo' src='images/logo.png' alt="Guitar.Info"></a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="basic.html">Basics</a></li>
+                    <li><a href="styles.html">Styles</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="request.html">Requests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- External Javascript file to toggle navbar links on mobile devices-->
+        <script src="nav.js"></script>
+    </header>
+    
+    <div class="contact">
+        <form class="form-contact">
+            <label class="label-title">Name:</label>
+            <input class="form-input"><br>
+        
+            <label class="label-title">Email:</label>
+            <input class="form-input"><br>
+        
+            <label class="label-title">Message:</label>
+            <textarea id="message" class="form-input"></textarea><br>
+        </form>
+        <button type="submit" value="Submit" class="form-button">Submit</button>
+    </div>
+   
+    <div class="comment">
+        <form class="form-comment">
+        <label class="label-title">Comment:</label>
+        <textarea id="comment-box" class="form-input"></textarea><br>
+        </form>
+        <button id="comment-btn" class="form-button">Submit Comment</button>
+    </div>
+    <script src="requests.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Variety of Styles</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <!--Navagation Bar-->
+    <header>
+        <nav class="navbar">
+            <a href='index.html'><img id='logo' src='images/logo.png' alt="Guitar.Info"></a>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="basic.html">Basics</a></li>
+                    <li><a href="styles.html">Styles</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="archive.html">Archive</a></li>
+                    <li><a href="request.html">Requests</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--External Javascript file to toggle nabar links on mobile devices-->
+        <script src="nav.js"></script>
+    </header>
+    <!--A radio button which style user finds interesting-->
+    <div class="music-style-question">
+        <form class="radio-button-container">
+          <h4 id="question">What style of music are you interested in?</h4>
+          <label>
+            <input type="radio" name="style" value="reggae">Reggae<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="flamenco">Flamenco<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="classical">Classical<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="country">Country<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="folk">Folk<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="soul">Soul & Funk<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="latin">Latin<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="african">African<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="blues">Blues<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="jazz">Jazz<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="rock">Rock<br>
+            <span></span>
+          </label>
+          <label>
+            <input type="radio" name="style" value="metal">Metal<br>
+            <span></span>
+          </label>
+      </form>
+      <button id="submit"> Submit </button>
+    </div> 
+    <!--A table of music styles and their information-->
+    <div class="music-style">
+      <table>
+        <tr>
+          <th class="row1">Musical Style</th>
+          <th>Information</th>
+        </tr>
+        <tr>
+          <td class="row1">Reggae</td>
+          <td>A jamaican style of music with four beats to the measure and the off-beats strongly accented.</td>
+        </tr>
+        <tr>
+          <td class="row1">Flamenco</td>
+          <td>Flamenco is a style of music and dance that originated in southern Spain and is characterized by its fast, 
+            rhythmic strumming and percussive guitar playing.</td>
+        </tr>
+        <tr>
+          <td class="row1">Classical</td>
+          <td>Classical music on guitar is typically played with a combination of arpeggios, melodies, and chordal 
+            accompaniment, using precise fingerpicking techniques and a fluid, expressive style.</td>
+        </tr>
+        <tr>
+          <td class="row1">Country</td>
+          <td>Country music is a genre of popular music that originated in the southern United States in the early 1920s. 
+            It takes its roots from the southeastern genre of American folk music and Western music.</td>
+        </tr>
+        <tr>
+          <td class="row1">Folk</td>
+          <td>Folk music includes both traditional music and the genre that evolved from it during the 20th century folk 
+            revival. The term originated in the 19th century, but is often applied to music older than that.</td>
+        </tr>
+        <tr>
+          <td class="row1">Soul & Funk</td>
+          <td>Soul music is a popular music genre that originated in the United States in the late 1950s and early 1960s. 
+            It combines elements of African-American gospel music, rhythm and blues, and jazz.</td>
+        </tr>
+        <tr>
+          <td class="row1">Latin</td>
+          <td>Latin music is a genre of music that originated in the 1950s and 1960s, and is a fusion of Latin American 
+            music with American popular music. It includes a wide variety of styles, including salsa, merengue, cumbia, 
+            bolero, mambo, samba, bossa nova, and many others.</td>
+        </tr>
+        <tr>
+          <td class="row1">African</td>
+          <td>African music is the music of the African continent, including the music of the African diaspora. 
+            African music is divided into many subgenres, some of which are widely popular worldwide.</td>
+        </tr>
+        <tr>
+          <td class="row1">Blues</td>
+          <td>Blues is a genre and musical form which was originated in the Deep South of the United States around the 
+            end of the 19th century by African Americans from roots in African musical traditions, African-American 
+            work songs, spirituals, and the folk music of white Americans of European heritage.</td>
+        </tr>
+        <tr>
+          <td class="row1">Rock</td>
+          <td>Rock music is a genre of popular music that originated as "rock and roll" in the United States in the 
+            early 1950s, and developed into a range of different styles in the 1960s and later, particularly in the 
+            United States and the United Kingdom.</td>
+        </tr>
+        <tr>
+          <td class="row1">Jazz</td>
+          <td>Jazz is a music genre that originated in the African-American communities of New Orleans, United States, 
+            in the late 19th and early 20th centuries, and developed from roots in blues and ragtime. Jazz is seen by 
+            many as "America's classical music".</td>
+        </tr>
+        <tr>
+          <td class="row1">Metal</td>
+          <td>Metal music is a genre of rock music that developed in the late 1960s and early 1970s, largely in the United 
+            Kingdom and the United States. It is characterized by heavy use of aggressive vocals, distorted electric 
+            guitars, bass guitar, drums, keyboard instruments and often accompanied with pianos and strings.</td>
+      </table>
+    </div>
+</body>
+</html>
